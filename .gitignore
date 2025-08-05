@@ -1,0 +1,35 @@
+/docs/Infrastructure Document for Real Time Streaming.md
+/docs/Real Time Streaming.md
+standalone.offsets
+
+connect/
+.obsidian
+connectors/source/postgres_crs_config.json
+connectors/source/source_postgres_org.json
+connectors/source/source_postgres.properties
+
+connectors/sink/mysql_crs_config.json
+connectors/sink/mysql_sink_connector_org.json
+
+.ipynb_checkpoints
+.virtual_documents
+
+Data/spark/notebooks/gaurav/streamlit/checkpoint/*
+
+Data/spark/notebooks/gaurav/spark-warehouse
+Data/spark/notebooks/gaurav/real-time-test.ipynb
+Data/spark/notebooks/gaurav/test.ipynb
+Data/spark/notebooks/gaurav/transactions_db.ipynb
+
+Data/mysql/*
+Data/postgres/*
+Data/kafka-data/*
+Data/zookeeper/*
+
+
+
+
+
+
+
+

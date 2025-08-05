@@ -1,0 +1,8 @@
+-- run streamlit dashboard
+streamlit run real_time_transaction.py
+
+-- run data_producer_transaction.py file
+spark-submit   --master local[2]   --jars /home/jovyan/work/jars/mysql-connector-java-8.0.33.jar,/home/jovyan/work/jars/postgresql-42.7.7.jar   data_producer_transaction.py
+
+-- run spark_consumer.py
+spark-submit   --master local[*]   --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0,org.apache.spark:spark-avro_2.12:3.5.0   --jars /home/jovyan/work/jars/mysql-connector-java-8.0.33.jar,/home/jovyan/work/jars/postgresql-42.7.7.jar   spark_consumer.py

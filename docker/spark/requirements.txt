@@ -1,0 +1,9 @@
+mysql-connector-python==8.3.0
+Faker
+ipywidgets
+jupyterlab-execute-time
+pyspark-stubs
+fastavro
+requests
+streamlit
+streamlit-autorefresh
