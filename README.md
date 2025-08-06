@@ -1,4 +1,4 @@
-# Real Time Data Processing
+# Real Time Data Streaming and Processing
 Real-time data streaming enables you to analyze and process data in real time instead of waiting hours, days, or weeks to get answers. 
 This architecture streams database changes from PostgreSQL to MySQL in real time using Kafka:
 
@@ -27,5 +27,6 @@ This architecture streams database changes from PostgreSQL to MySQL in real time
 ```bash
 docker-compose up --build -d
 ```
-2. Make sure to create **kafka-data**, **mysql**, **postgres**, **zookeeper** folder inside Data directory
-3. Detailed document is available at  `docs/`
+2. Make sure to create **kafka-data**, **mysql**, **postgres**, **zookeeper** folder inside **Data** directory.
+3. Make sure to run `sql/source.sql` file in source database and `sql/destination.sql` in destination database.
+4. Detailed document is available at  `docs/`.
